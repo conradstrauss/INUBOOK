@@ -1,0 +1,43 @@
+{
+  "name": "facebook-redesign",
+  "version": "1.0.0",
+  "description": "Facebook redesign using Nuxt, Vue, TailwindCSS",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "format:check": "prettier --check './**/*.{js,ts,css,html,vue}'",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
+  "author": "Swadesh Behera <swadesh@litekart.in>",
+  "license": "MIT",
+  "homepage": "https://github.com/itswadesh/facebook-redesign#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itswadesh/facebook-redesign.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itswadesh/facebook-redesign/issues"
+  },
+  "dependencies": {
+    "nuxt": "^2.13.3",
+    "nuxt-webfontloader": "^1.1.0",
+    "vue-content-loader": "^0.2.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/eslint-config": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@nuxtjs/tailwindcss": "^2.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "vue-feather-icons": "^5.0.0"
+  }
+}
